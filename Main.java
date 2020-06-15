@@ -10,9 +10,6 @@ public class Main {
         MyThread m2 = new MyThread("Fiji");
         m1.start();
         m2.start();
-        m1.stop(); // deprecati.
-        m1.suspend();
-        m1.resume();
         System.out.println("Thread principale");
 
         MyRunnable r1 = new MyRunnable("Fiji");
